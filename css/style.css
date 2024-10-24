@@ -154,10 +154,17 @@ body {
   /* Our Courses Bitimi */
 
   /* Our Mentors */
-  .our-mentors-div {
-    width: 100%;
-    height: auto;
+  .our-mentors{
+    min-width: 374px;
   }
+  .our-mentors-div {
+  width: 100%;
+  max-width: 374px;
+  margin: auto;
+}
+  .our-mentor-ul {
+  display: flex;
+  gap: 40px;
 
   /* Our Mentors Bitimi */
 
@@ -263,7 +270,7 @@ body {
     min-width: 1080px;
     max-width: 1240px;
   }
-  .ourmentor-title {
+  .our-mentors-title {
     font-weight: 500;
     font-size: 48px;
     line-height: 54px;
@@ -313,6 +320,18 @@ body {
   /* Our Courses Bitimi */
 
   /* Our Mentors */
+  .our-mentors {
+    max-width: 100%;
+  }
+  .our-mentors-div {
+    max-width: 1240px;
+  }
+  .our-mentors-title {
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: -0.04em;
+    font-weight: 500;
+    margin-bottom: 50px;
 
   /* Our Mentors Bitimi */
 
