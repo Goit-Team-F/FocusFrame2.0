@@ -52,6 +52,14 @@ body {
 /* 375 Mobile first css alanı */
 
 /* Header */
+.section-header {
+  background-image: url(../images/dashed-bg.png);
+  width: 100%;
+}
+.hero-section {
+  background-image: url(../images/dashed-bg.png);
+  width: 100%;
+}
 .header-container {
   /* Header */
 
@@ -64,6 +72,7 @@ body {
   border: 1px solid #ffffff33;
 
   border-radius: 12px;
+  background-color: var(--black);
 }
 .navbar-div {
   width: 127px;
@@ -94,9 +103,10 @@ body {
   display: block;
 }
 .menu-wrap {
-  position: fixed;
+  /* position: fixed; */
+  position: absolute;
   top: 15px;
-  right: 80px;
+  left: 290px;
   z-index: 1;
 }
 .menu-wrap .toggler {
@@ -189,7 +199,7 @@ body {
 .menu > .menu-links {
   position: relative;
   top: 100px;
-  left: 0;
+  left: 20px;
   /* height: 100%; */
   /* width: 100%; */
   flex: none;
