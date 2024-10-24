@@ -85,6 +85,7 @@ body {
   width:100%;
   color:var(--white);
   padding: 50px 0; /* diğer section'lar ile araya dikeyde boşluk için */
+  background-image:url(../images/footer-dashed-bg.png);
 }
 .footer-div {
   width:335px;
@@ -92,12 +93,34 @@ body {
   display:flex;
   flex-direction: column;
   gap:20px;
+  background-color: var(--gray);/* will be deleted, for debug only */
+}
+.footer-top-container{
+  flex:1; /* flex ayarla */
+}
+.footer-bottom-group {
+  flex:1; /* flex ayarla */
 }
 .footer-group-bc {
   display:flex;
   justify-content: space-between;
-  /* b ve c container'larına flex ver */
+  margin-top:20px;
+  /* b ve c container'larına flex vericem fontlar vs ayarlandıktan sonra */
 }
+.footer-bottom {
+  display:flex;
+  justify-content: space-between;
+}
+.footer-top-container-ul, .footer-column-b-ul, .footer-column-c-ul{
+  list-style:none;
+}
+.footer-tel-a, .footer-contact-p, .footer-socials-a, .footer-nav-links {
+  font-weight: 400;
+  font-size:14px;
+  line-height: 1.28;
+}
+
+
 
 /* Footer Bitimi */
 
