@@ -172,7 +172,7 @@ body {
   letter-spacing: -0.02em;
   text-align: left;
   color: rgba(255, 255, 255, 1);
-  font-size: calc(100vw/28);
+ 
 
 }
 
@@ -220,7 +220,17 @@ body {
   /* Sign up Bitimi */
 
   /* Reviews */
+.reviews-p {
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    font-size: calc(100vw/28);
 
+  }
 
   /* Reviews Bitimi */
 
