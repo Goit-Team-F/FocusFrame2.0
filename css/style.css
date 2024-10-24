@@ -68,7 +68,59 @@ body {
 /* Our Courses Bitimi */
 
 /* Our Mentors */
-
+.our-mentors {
+  /* Tüm background aynı renkse tekrara düşmemesi için silinecek */
+  background-color: var(--black);
+  max-width: 100%;
+  margin: 80px 20px;
+}
+.our-mentors-div {
+  min-width: 305px;
+  max-width: 704px;
+  margin: auto;
+}
+.our-mentors-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -0.04em;
+  margin-bottom: 40px;
+  color: var(--white);
+  text-align: start;
+  margin-left: 20px;
+}
+.our-mentor-span {
+  color: var(--brown);
+}
+.our-mentor-name-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--white);
+}
+.our-mentor-name-title,
+.our-mentor-exp {
+  text-align: center;
+}
+.our-mentor-exp {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  color: var(--white05opacity);
+}
+.our-mentor-ul {
+  display: flex;
+  gap: 100px;
+  margin: 0 auto;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.our-mentor-li {
+  align-items: center;
+  margin: 0 auto;
+}
 /* Our Mentors Bitimi */
 
 /* Sign up */
@@ -102,6 +154,10 @@ body {
   /* Our Courses Bitimi */
 
   /* Our Mentors */
+  .our-mentors-div {
+    width: 100%;
+    height: auto;
+  }
 
   /* Our Mentors Bitimi */
 
@@ -137,6 +193,34 @@ body {
   /* Our Courses Bitimi */
 
   /* Our Mentors */
+  .our-mentors {
+    min-width: 768px;
+    max-width: 1279px;
+  }
+  .our-mentors-div {
+    max-width: 1034px;
+    min-width: 704px;
+  }
+  .our-mentors-title {
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: -0.04em;
+    font-weight: 500;
+  }
+  .our-mentor-name-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .our-mentor-exp {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+  }
+  .our-mentor-li {
+    margin: 0 auto;
+  }
 
   /* Our Mentors Bitimi */
 
@@ -171,7 +255,31 @@ body {
   /* Our Courses Bitimi */
 
   /* Our Mentors */
-
+  .our-mentors {
+    min-width: 1280px;
+    max-width: 1440px;
+  }
+  .our-mentors-div {
+    min-width: 1080px;
+    max-width: 1240px;
+  }
+  .ourmentor-title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: 0.04em;
+  }
+  .our-mentor-name-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .our-mentor-exp {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+  }
   /* Our Mentors Bitimi */
 
   /* Sign up */
