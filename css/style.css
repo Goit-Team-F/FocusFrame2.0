@@ -155,31 +155,41 @@ body {
 
   /* Our Mentors */
   .our-mentors {
-    min-width: 374px;
+    width: 100%;
   }
   .our-mentors-div {
     width: 100%;
-    max-width: 374px;
-    margin: auto;
+    margin: 0;
   }
   .our-mentor-ul {
     display: flex;
-    gap: 40px;
-
-    /* Our Mentors Bitimi */
-
-    /* Sign up */
-
-    /* Sign up Bitimi */
-
-    /* Reviews */
-
-    /* Reviews Bitimi */
-
-    /* Footer */
-
-    /* Footer Bitimi */
+    flex-wrap: wrap;
+    gap: 20px;
   }
+  .our-mentor-li {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 1 1 100%; /* Her bir liste elemanı tam genişlikte olacak */
+  }
+  .our-mentor-img {
+    display: flex;
+    align-items: center;
+    max-width: 160px; /* Görselleri daha da küçült */
+  }
+  /* Our Mentors Bitimi */
+
+  /* Sign up */
+
+  /* Sign up Bitimi */
+
+  /* Reviews */
+
+  /* Reviews Bitimi */
+
+  /* Footer */
+
+  /* Footer Bitimi */
 }
 
 /* Tablet */
