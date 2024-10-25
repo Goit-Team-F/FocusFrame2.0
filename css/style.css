@@ -267,6 +267,59 @@ body {
 
   /* Reviews */
 
+  #reviews {
+      width: 100%;
+      padding: 50px 0;
+     left:32px;
+    }
+  
+    .reviews-div {
+          margin: auto;
+         min-width: 768px;
+    }
+        .amanda-border {
+         display: none;
+        }
+      .person-review .abraham-border {
+       max-width: 640px;
+       height: 196px;
+      
+            margin: 0 auto;
+        }
+      
+        .reviews-title {
+          width: 171px;
+            height: 54px;
+          font-family: DM Sans;
+            font-size: 48px;
+            font-weight: 500;
+            line-height: 54px;
+            letter-spacing: -0.04em;
+            text-align: left;
+        }
+      
+        .reviews-p {
+            width: 600px;
+              height: 80px;
+position: relative;
+  font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    bottom: 20px;
+        }
+      
+        .abraham-border .stars-image {
+        width: 116px;
+        height: 20px;
+        margin-left: 488px;
+        display: flex;
+       bottom: 24px;
+         
+        }
+
   /* Reviews Bitimi */
 
   /* Footer */
