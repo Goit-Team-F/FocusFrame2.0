@@ -408,7 +408,7 @@ body {
   }
   .hero-photographer-img-div {
     display: block;
-    height: 100%;
+    
     @media screen and (min-width:508px) {
       margin-top: 40px;
     }
