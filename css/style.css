@@ -126,7 +126,7 @@ body {
   position: relative;
   top:-53px;
   float: right;
-  /* left: calc(30+100vw)px; */
+  
   height: 60px;
   width: 60px;
   background: transparent;
@@ -381,7 +381,8 @@ body {
   .hero-row3-col2 {
     padding-top: 40px;
     flex: 1;
-    padding-left: 30px;
+    /* padding-left: 30px; */
+    padding-left: calc((0.9 * 100vw) - 375px);
   }
   .hero-row3-col3 {
     padding-top: 40px;
