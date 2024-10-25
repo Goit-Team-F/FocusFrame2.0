@@ -545,7 +545,48 @@ bottom: 32px;
   /* Sign up Bitimi */
 
   /* Reviews */
-   
+    #reviews {
+        width: 100%;
+        padding: 50px 0;
+        position: relative;
+      }
+    
+    
+       }
+      .reviews-div {
+        width: 1240px;
+        height: 196px;
+        left: 100px;
+        margin: auto;
+      }
+    
+      reviews .person-review .abraham-border {
+    
+        width: 610px;
+        height: 196px;
+    
+    
+      }
+    
+      reviews .person-review .amanda-border {
+    
+        width: 610px;
+        height: 196px;
+    
+    
+      }
+    
+      .reviews-p {
+        width: 570px;
+        height: 80px;
+    
+      }
+    
+      .reviews-p-amanda {
+        width: 570px;
+        height: 80px;
+    
+      }
 
   /* Reviews Bitimi */
 
