@@ -106,7 +106,90 @@ body {
   /* Our Mentors Bitimi */
 
   /* Sign up */
-
+  .sign-up-contents{
+    width: 100%;
+    max-width: 335px;
+  }
+  .sign-up-contents p{
+    font-family: var(--dmsans);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    }
+    .sign-up-title {
+      font-family: var(--dmsans);
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 54px;
+      letter-spacing: -0.04em;
+      color: var(--white);
+      text-align: start;
+    }
+    .sign-up-title span {
+      color: var(--brown);
+    }
+    #sign-up-privacy-text a{
+      text-decoration: underline;
+    }
+    #sign-up-privacy-text{
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      color: var(--white05opacity);
+    }
+    .input-name {
+      width: 100%;
+      max-width: 335px;
+      height: 46px;
+      color: var(--white);
+      padding-left: 18px;
+      border-radius: 12px;
+      border: 1px solid #ffffff33;
+      background-color: var(--black);
+    }
+    .input-email {
+      width: 100%;
+      max-width: 335px;
+      height: 46px;
+      color: var(--white);
+      border-radius: 12px;
+      border: 1px solid #ffffff33;
+      background-color: var(--black);
+      padding-left: 18px;
+    }
+    form textarea {
+      width: 100%;
+      max-width: 335px;
+      height: 112px;
+      border-radius: 12px;
+      border: 1px solid #ffffff33;
+      background-color: var(--black);
+      color: var(--white);
+    }
+    .submit-div{
+      width: 100%;
+      max-width: 335px;
+    }
+    .sign-up-submit {
+      max-width: 335px;
+      height: 48px;
+      border-radius: 12px;
+      padding-top: 14px;
+      padding-right: 127px;
+      padding-bottom: 14px;
+      padding-left: 127px;
+      background-color: white;
+    }
+    form button:hover {
+      background-color: var(--black);
+      color: var(--brown);
+    }
+    .sign-up-privacy-text{
+      width: 100%;
+      max-width: 335px;
+      min-height: 48px;
+    }
   /* Sign up Bitimi */
 
   /* Reviews */
