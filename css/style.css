@@ -407,9 +407,18 @@ body {
   }
   .hero-photographer-img-div {
     display: block;
+    height: 100%;
+    @media screen and (min-width:508px) {
+      margin-top: 40px;
+    }
   }
+  
   .hero-photographer-img-div img {
     margin: 0 auto;
+    position: relative;
+    top: 0;
+    object-fit: fill;
+    
   }
   .advertisement {
     min-width: 375px;
@@ -726,7 +735,8 @@ body {
     max-width: 314px;
     
     width: 90%;
-    height: 777px;
+    min-height: 777px;
+    height: 100%;
     margin: 0 20px;
     border-radius: 30px 30px 30px 30px;
     opacity: 0px;
@@ -836,11 +846,14 @@ body {
   }
   .hero-photographer-img-div {
     display: block;
+    height: 100%;
   }
   .hero-photographer-img-div img {
     margin: 0 auto;
     position: relative;
-    top: -11px;
+    top: 0;
+    object-fit: fill;
+    
   }
   .advertisement {
     min-width: 325px;
