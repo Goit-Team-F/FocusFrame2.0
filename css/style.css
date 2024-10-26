@@ -493,6 +493,7 @@ form button:hover {
       text-decoration: underline;
     }
     #sign-up-privacy-text{
+      width: 100%;
       font-weight: 400;
       font-size: 14px;
       line-height: 18px;
@@ -538,10 +539,6 @@ form button:hover {
     form button:hover {
       background-color: var(--black);
       color: var(--brown);
-    }
-    .sign-up-privacy-text{
-      width: 100%;
-      max-width: 480px;
     }
     .sign-up-images {
       display: flex;
@@ -614,8 +611,7 @@ form button:hover {
 
   /* Sign up */
   .sign-up-div{
-    width: 1240px;
-    height: 578px;
+    width: 1080px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -627,7 +623,8 @@ form button:hover {
     padding: 20px;
   }
   .sign-up-contents p{
-    width: 480px;
+    width: 100%;
+    min-width: 480px;
     height: 40px;
     font-family: var(--dmsans);
     font-weight: 400;
@@ -636,7 +633,8 @@ form button:hover {
     letter-spacing: -0.02em;
     }
     .sign-up-title {
-      width: 159px;
+      width: 100%;
+      min-width: 159px;
       height: 54px;
       font-family: var(--dmsans);
       font-weight: 500;
@@ -653,15 +651,15 @@ form button:hover {
       text-decoration: underline;
     }
     #sign-up-privacy-text{
-      width: 480px;
-      height: 36px;
+      width: 100%;
       font-weight: 400;
       font-size: 14px;
       line-height: 18px;
       color: var(--white05opacity);
     }
     .input-name {
-      width: 480px;
+      width: 100%;
+      max-width: 480px;
       height: 60px;
       color: var(--white);
       border-radius: 12px;
@@ -669,7 +667,8 @@ form button:hover {
       background-color: var(--black);
     }
     .input-email {
-      width: 480px;
+      width: 100%;
+      max-width: 480px;
       height: 60px;
       color: var(--white);
       border-radius: 12px;
@@ -677,7 +676,8 @@ form button:hover {
       background-color: var(--black);
     }
     form textarea {
-      width: 480px;
+      width: 100%;
+      max-width: 480px;
       height: 120px;
       border-radius: 12px;
       border: 1px solid #ffffff33;
@@ -685,7 +685,7 @@ form button:hover {
       color: var(--white);
     }
     .sign-up-submit {
-      width: 479px;
+      max-width: 479px;
       height: 60px;
       border-radius: 12px;
       padding-top: 16px;
@@ -698,19 +698,12 @@ form button:hover {
       background-color: var(--black);
       color: var(--brown);
     }
-    .sign-up-privacy-text{
-      width: 480px;
-      height: 36px;
-    }
     .sign-up-images {
       display: flex;
-      width: 560px;
+      width: 540px;
       height: 540px;
-      left: 640px;
+      left: 590px;
       position: absolute;
-      grid-row: auto;
-      right: 0px;
-
     }
     .lens-img {
       width: 150px;
@@ -735,7 +728,8 @@ form button:hover {
       left: 210px;
     }
     .sign-up-camera-img {
-      width: 240px;
+      width: 100%;
+      max-width: 240px;
       height: 296px;
       position: absolute;
       top: 139px;
