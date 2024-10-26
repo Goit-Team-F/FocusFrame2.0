@@ -50,13 +50,136 @@ body {
   background-color: var(--black);
 }
 /* 375 Mobile first css alanı */
+.header-and-hero-container {
+  width:100%;
+  background-image:url(../images/dashed-bg.png);
+  color:white;
+  padding-top:20px;
+}
 
 /* Header */
 
+.nav-ul, .header-sign-up-button {
+  display:none;
+}
+.header-nav {
+  display:flex;
+  justify-content: space-between;
+  align-items:center; 
+  padding: 9px 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: var(--black);
+}
+.nav-logo-icon {
+  width: 127px;
+  height: 20px;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-icons-div {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.header-section {
+  width:335px;
+  margin:auto;
+}
 /* Header Bitimi */
 
 /* Hero */
+.hero-section { 
+  width:335px;
+  margin:auto;
+  background-color: var(--gray);
+  border-radius: 30px;
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top:20px;
+  
+}
+.hero-div {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap:20px;
+}
+.hero-main-title-h1{
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  color: var(--white);
+}
 
+.hero-main-title-h1-span {
+  font-family: DM Sans;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  color: var(--brown);
+}
+.hero-paragraph {
+  font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: var(--white);
+}
+.hero-happy-reviews-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hero-reviws-star-text-number {
+  display: flex;
+}
+.hero-h6-h4-container {
+  display:flex;
+  flex-direction: column;
+  margin-top:10px;
+  margin-left:5px;
+}
+.hero-happy-studs-link-container {
+  display:flex;
+  flex-direction: column;
+}
+.hero-happy-studs-link-text {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  color: var(--white); 
+}
+.hero-reviws-text {
+  opacity: 0.5;
+}
+.hero-reviws-text, .hero-reviws-number {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  color: var(--white); 
+}
+.hero-photographer {
+  margin-left:15px;
+}
 /* Hero Bitimi */
 
 /* About Us */
