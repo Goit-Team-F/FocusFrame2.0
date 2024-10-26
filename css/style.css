@@ -385,7 +385,10 @@ body {
     gap: 100px;
   }
   .footer-input-mail{
-    margin-left: 191px;
+    margin-left: 236px;
+  }
+  .footer-div{
+    padding:0;
   }
 
   /* Footer Bitimi */
