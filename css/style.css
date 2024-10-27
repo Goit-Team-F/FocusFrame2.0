@@ -73,14 +73,12 @@ body {
 
 /* Sign up */
 .sign-up-in-main-section{
-    width: 100%;
-    margin: 80px 20px;
+    width: 98%;
   }
  .sign-up-div{
-  max-width: 480px;
+  width: 335px;
   height: 523px;
-  margin:0 auto;
-  margin-left: 20px;
+  margin: auto;
  }
 #sign-up-in-main{
   color: var(--white);
@@ -129,7 +127,7 @@ letter-spacing: -0.02em;
   color: var(--white05opacity);
 }
 .input-name {
-  width: 480px;
+  width: 335px;
   height: 60px;
   color: var(--white);
   padding-left: 18px;
@@ -138,7 +136,7 @@ letter-spacing: -0.02em;
   background-color: var(--black);
 }
 .input-email {
-  width: 480px;
+  width: 335px;
   height: 60px;
   color: var(--white);
   border-radius: 12px;
@@ -147,7 +145,7 @@ letter-spacing: -0.02em;
   padding-left: 18px;
 }
 form textarea {
-  width: 480px;
+  width: 335px;
   height: 120px;
   border-radius: 12px;
   border: 1px solid #ffffff33;
@@ -157,7 +155,7 @@ form textarea {
   color: var(--white);
 }
 .sign-up-submit {
-  width: 480px;
+  /*width: 480px;*/
   height: 60px;
   margin-top: 20px;
   border-radius: 12px;
@@ -209,9 +207,11 @@ form button:hover {
   /* Our Mentors Bitimi */
 
   /* Sign up */
+  .sign-up-div {
+    width:89.33%;
+  }
   .sign-up-contents{
     width: 100%;
-    max-width: 335px;
   }
   .sign-up-contents p{
     font-family: var(--dmsans);
