@@ -204,11 +204,15 @@ form button:hover {
   /* Our Mentors Bitimi */
 
   /* Sign up */
+  .sign-up-in-main-section{
+    width: 98%;
+  }
   .sign-up-div {
-    width:89.33%;
+    max-width:375px
   }
   .sign-up-contents{
-    width: 100%;
+    max-width: 335px;
+    width: 90%;
   }
   .sign-up-contents p{
     font-family: var(--dmsans);
@@ -324,17 +328,21 @@ form button:hover {
   /* Our Mentors Bitimi */
 
   /* Sign up */
+  .sign-up-in-main-section{
+    width: 100%;
+  }
   .sign-up-div {
-    width:98%;
+    width: 704px;
+    margin:auto;
   }
   .sign-up-contents{
     display: flex;
-    max-width: 478px;
+    max-width: 480px;
     flex-wrap: wrap;
     width: 100%;
   }
   .sign-up-contents p{
-    max-width: 478px;
+    max-width: 480px;
     height: 40px;
     font-family: var(--dmsans);
     font-weight: 400;
@@ -365,7 +373,7 @@ form button:hover {
     }
     .input-name {
       width: 100%;
-      max-width: 478px;
+      max-width: 480px;
       height: 46px;
       color: var(--white);
       padding-left: 18px;
@@ -375,7 +383,7 @@ form button:hover {
     }
     .input-email {
       width: 100%;
-      max-width: 478px;
+      max-width: 480px;
       height: 46px;
       color: var(--white);
       border-radius: 12px;
@@ -385,7 +393,7 @@ form button:hover {
     }
     form textarea {
       width: 100%;
-      max-width: 478px;
+      max-width: 480px;
       height: 112px;
       border-radius: 12px;
       border: 1px solid #ffffff33;
@@ -397,7 +405,7 @@ form button:hover {
       max-width: 480px;
     }
     .sign-up-submit {
-      max-width: 478px;
+      max-width: 480px;
       height: 48px;
       border-radius: 12px;
       padding-top: 14px;
@@ -412,7 +420,7 @@ form button:hover {
     }
     .sign-up-privacy-text{
       width: 100%;
-      max-width: 478px;
+      max-width: 480px;
       min-height: 48px;
     }
   /* Sign up Bitimi */
@@ -448,6 +456,9 @@ form button:hover {
   /* Our Mentors Bitimi */
 
   /* Sign up */
+  .sign-up-in-main-section{
+    width: 100%;
+  }
   .sign-up-div{
     width: 1080px;
     display: flex;
@@ -463,8 +474,7 @@ form button:hover {
     padding: 20px;
   }
   .sign-up-contents p{
-    width: 100%;
-    min-width: 480px;
+    width: 480px;
     height: 40px;
     font-family: var(--dmsans);
     font-weight: 400;
@@ -492,6 +502,7 @@ form button:hover {
     }
     #sign-up-privacy-text{
       width: 100%;
+      max-width: 478px;
       font-weight: 400;
       font-size: 14px;
       line-height: 18px;
