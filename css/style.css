@@ -214,7 +214,7 @@ form button:hover {
     max-width: 335px;
     width: 90%;
   }
-  .sign-up-contents p{
+  #sign-up-text1{
     font-family: var(--dmsans);
     font-weight: 400;
     font-size: 16px;
@@ -337,11 +337,11 @@ form button:hover {
   }
   .sign-up-contents{
     display: flex;
-    max-width: 480px;
     flex-wrap: wrap;
-    width: 100%;
+    margin-left:0px;
+    width: 480px;
   }
-  .sign-up-contents p{
+  #sign-up-text1{
     max-width: 480px;
     height: 40px;
     font-family: var(--dmsans);
@@ -473,7 +473,7 @@ form button:hover {
     justify-content: center;
     padding: 20px;
   }
-  .sign-up-contents p{
+  #sign-up-text1{
     width: 480px;
     height: 40px;
     font-family: var(--dmsans);
@@ -562,7 +562,7 @@ form button:hover {
     background-color: var(--brown);
     display: flex;
     flex-direction: row;
-    margin:250px 20px;
+    margin:220px 20px;
     align-items: center;
     border-radius: 1000px;
     }
@@ -615,7 +615,106 @@ form button:hover {
   /* Our Mentors Bitimi */
 
   /* Sign up */
-  
+ 
+  .sign-up-div{
+    max-width: 1440px;
+  }
+  .sign-up-contents{
+    max-width: 1240px;
+  }
+  #sign-up-text1{
+    flex: 455;
+    }
+    .sign-up-title {
+      flex: 545;
+    }
+    .sign-up-title span {
+      color: var(--brown);
+    }
+    #sign-up-privacy-text a{
+      text-decoration: underline;
+    }
+    #sign-up-privacy-text{
+      width: 100%;
+      max-width: 478px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      color: var(--white05opacity);
+    }
+    .input-name {
+      width: 100%;
+      max-width: 480px;
+      height: 60px;
+      color: var(--white);
+      border-radius: 12px;
+      border: 1px solid #ffffff33;
+      background-color: var(--black);
+    }
+    .input-email {
+      width: 100%;
+      max-width: 480px;
+      height: 60px;
+      color: var(--white);
+      border-radius: 12px;
+      border: 1px solid #ffffff33;
+      background-color: var(--black);
+    }
+    form textarea {
+      width: 100%;
+      max-width: 480px;
+      height: 120px;
+      border-radius: 12px;
+      border: 1px solid #ffffff33;
+      background-color: var(--black);
+      color: var(--white);
+    }
+    .sign-up-submit {
+      max-width: 479px;
+      height: 60px;
+      border-radius: 12px;
+      padding-top: 16px;
+      padding-right: 216px;
+      padding-bottom: 16px;
+      padding-left: 216px;
+      background-color: white;
+    }
+    form button:hover {
+      background-color: var(--black);
+      color: var(--brown);
+    }
+    .sign-up-images {
+      display: flex;
+      flex-direction: row;
+      margin: auto;
+      width: 540px;
+      height: 540px;
+    }
+    .lens-img-div{
+    width: 180px;
+    height: 288px;
+    background-color: var(--brown);
+    display: flex;
+    flex-direction: row;
+    margin:220px 20px;
+    align-items: center;
+    border-radius: 1000px;
+    }
+    .lens-img{
+      width: 150px;
+      height: 142px;
+    }
+    .camera-img-div{
+      padding: 150px 0 10px 40px;
+      width: 340px;
+      height: 540px;
+      border-radius: 1000px;
+      background-color: var(--gray);
+    }
+    .sign-up-camera-img{
+      width: 240px;
+      height: 296px;
+    }
   /* Sign up Bitimi */
  
   /* Reviews */
