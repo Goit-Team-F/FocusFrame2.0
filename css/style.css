@@ -4,6 +4,7 @@
   --brown: #bea69e;
   --white: #ffffff;
   --white05opacity: rgba(255, 255, 255, 0.5);
+  --white02opacity: rgba(255, 255, 255, 0.2);
   --dmsans: "DM Sans", sans-serif;
   --linear-gradiant: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
 }
@@ -441,7 +442,7 @@ form button:hover {
   color:var(--white);
   margin-top: 20px; /* diğer section'lar ile araya dikeyde boşluk için */
   background-image:url(../images/footer-dashed-bg.png);
-  border-top:1px solid var(--white05opacity);
+  border-top:1px solid var(--white02opacity);
 }
 .footer-div {
   width:375px;
