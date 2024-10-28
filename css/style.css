@@ -129,10 +129,9 @@ body {
 
 /* Our Courses */
 .our-courses-section {
-  background-color: var(--gray);
   width:100%;
   color:var(--white);
-  padding: 50px 0; /* diğer section'lar ile araya dikeyde boşluk için */
+  padding: 90px 0;
 }
 .our-courses-div {
   max-width:375px;
@@ -442,6 +441,7 @@ form button:hover {
   color:var(--white);
   margin-top: 20px; /* diğer section'lar ile araya dikeyde boşluk için */
   background-image:url(../images/footer-dashed-bg.png);
+  border-top:1px solid var(--white05opacity);
 }
 .footer-div {
   width:375px;
@@ -464,7 +464,6 @@ form button:hover {
   display:flex;
   margin-top:40px;
   gap:40px;
-  /* b ve c container'larına flex vericem fontlar vs ayarlandıktan sonra */
 }
 .footer-column-b{
   display: flex;
@@ -1583,6 +1582,7 @@ bottom: 32px;
         width: 100%;
         padding: 50px 0;
         position: relative;
+        padding-bottom:200px;
       }
 
       .reviews-div {
