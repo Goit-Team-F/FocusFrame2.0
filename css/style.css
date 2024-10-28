@@ -436,6 +436,101 @@ form button:hover {
 /* Reviews Bitimi */
 
 /* Footer */
+/* footer mobile */
+.footer-section {
+  width:100%;
+  color:var(--white);
+  margin-top: 20px; /* diğer section'lar ile araya dikeyde boşluk için */
+  background-image:url(../images/footer-dashed-bg.png);
+}
+.footer-div {
+  width:375px;
+  margin:auto;
+  display:flex;
+  flex-direction: column;
+  gap:40px;
+  padding: 20px;
+}
+.footer-column-a{
+  width: 100%;
+}
+.footer-top-container-ul{
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  gap: 10px;
+}
+.footer-group-bc {
+  display:flex;
+  margin-top:40px;
+  gap:40px;
+  /* b ve c container'larına flex vericem fontlar vs ayarlandıktan sonra */
+}
+.footer-column-b{
+  display: flex;
+}
+.footer-column-b-ul{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.footer-column-c{
+  display: flex;
+}
+.footer-column-c-ul{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.footer-top-container-ul, .footer-column-b-ul, .footer-column-c-ul{
+  list-style:none;
+}
+.footer-tel-a, .footer-contact-p, .footer-socials-a, .footer-nav-links {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+.footer-subscribe{
+  margin-top:75px;
+}
+.footer-input-mail{
+  width: 267px;
+  height: 60px;
+  border-radius: 12px;
+  padding: 0;
+}
+.footer-input-mail::placeholder{
+  padding-left: 18px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.btn-foot-subs{
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  background-color: var(--gray);
+  color: var(--white);
+  outline: none;
+  border: none;
+  padding: 0;
+  margin-left: 3px;
+}
+.footer-bottom-group{
+  display: block;
+}
+.footer-bottom {
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
 
 /* Footer Bitimi */
 
@@ -850,6 +945,38 @@ position: relative;
   /* Reviews Bitimi */
 
   /* Footer */
+  .footer-top-container{
+    display: flex;
+  }
+  .footer-div{
+    width: 768px;
+    margin-top: 50px;
+    padding: 0 32px;
+    display: flex;
+  }
+.footer-column-a{
+  display: inline-block;
+  width: 152px;
+}
+.footer-group-bc{
+  display: flex;
+  width: 199px;
+  margin-top: 0;
+  margin-left: 48px;
+  gap: 25px;
+}
+.footer-subscribe{
+  margin-top: 0;
+}
+.footer-input-mail{
+  width: 178px;
+  margin-top: 0;
+  margin-left: 59px;
+}
+.footer-bottom{
+  font-size: 14px;
+  line-height: 18px;
+}
 
   /* Footer Bitimi */
 }
@@ -1232,7 +1359,42 @@ bottom: 32px;
   /* Reviews Bitimi */
 
   /* Footer */
-
+  .footer-top-container{
+    display: flex;
+  }
+  .footer-div{
+    width: 1280px;
+    margin-top: 50px;
+    padding: 0 100px;
+    display: flex;
+  }
+.footer-column-a{
+  display: inline-block;
+  width: 288px;
+}
+.footer-group-bc{
+  display: flex;
+  width: 224px;
+  margin-top: 0;
+  margin-left: 140px;
+  gap: 50px;
+}
+.footer-column-b-ul,
+.footer-column-c-ul{
+  gap: 20px;
+}
+.footer-subscribe{
+  margin-top: 0;
+}
+.footer-input-mail{
+  width: 216px;
+  margin-top: 0;
+  margin-left: 135px;
+}
+.footer-bottom{
+  font-size: 14px;
+  line-height: 18px;
+}
   /* Footer Bitimi */
 }
 
@@ -1472,6 +1634,17 @@ bottom: 32px;
   /* Reviews Bitimi */
 
   /* Footer */
+  .footer-group-bc{
+    width: 275px;
+    margin-left: 196px;
+    gap: 100px;
+  }
+  .footer-input-mail{
+    margin-left: 236px;
+  }
+  .footer-div{
+    padding:0;
+  }
 
   /* Footer Bitimi */
 }
