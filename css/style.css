@@ -1310,9 +1310,13 @@ bottom: 32px;
   /* Our Mentors Bitimi */
 
   /* Sign up */
- 
+  
+  .sign-up-in-main-section {
+    width:100%;
+  }
   .sign-up-div{
-    max-width: 1440px;
+    width: 1240px;
+    margin:auto;
   }
   .sign-up-contents{
     max-width: 1240px;
