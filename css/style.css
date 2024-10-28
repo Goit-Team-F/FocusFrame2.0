@@ -1481,7 +1481,7 @@ bottom: 32px;
     width:100%;
   }
   .sign-up-div{
-    width: 1240px;
+    max-width: 1240px;
     margin:auto;
   }
   .sign-up-contents{
