@@ -94,7 +94,37 @@ body {
   width:335px;
   margin:auto;
 }
-
+/* hamburger menu */
+.menu-wrap{
+  width: 218px;
+  height: 812px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 15px;
+  left:158px;
+  background-color: var(--brown);  
+}
+.menu-links{
+  margin-top: 180px;
+}
+.menu-links li{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  color:var(--black);
+  column-gap:20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 14px;
+  line-height: 18.23px;
+  font-weight: 400;
+}
+.menu-camera-div{
+  display: flex;
+  align-items: end;
+  margin-top: 133px;
+  }
 /* Header Bitimi */
 
 /* Hero */
