@@ -222,7 +222,64 @@ body {
 /* Our Courses Bitimi */
 
 /* Our Mentors */
-
+.our-mentors-sec {
+  /* Tüm background aynı renkse tekrara düşmemesi için silinecek */
+  background-color: var(--black);
+  max-width: 100%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.our-mentors-div {
+  width:335px;
+  margin: auto;
+}
+.our-mentors-li-div {
+  margin:auto;
+}
+.our-mentors-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -0.04em;
+  margin-bottom: 40px;
+  color: var(--white);
+  text-align: start;
+  margin-left: 20px;
+}
+.our-mentors-span {
+  color: var(--brown);
+}
+.our-mentors-name-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--white);
+}
+.our-mentors-name-title,
+.our-mentors-exp {
+  text-align: center;
+}
+.our-mentors-exp {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  color: var(--white05opacity);
+}
+.our-mentors-ul {
+  display: flex;
+  gap: 100px;
+  margin: 0 auto;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.our-mentors-li {
+  align-items: center;
+  width: 185px;
+  margin-bottom: 40px;
+  margin: 0 auto;
+}
 /* Our Mentors Bitimi */
 
 /* Sign up */
@@ -575,7 +632,32 @@ form button:hover {
   /* Our Courses Bitimi */
 
   /* Our Mentors */
-
+  .our-mentors-sec {
+    width: 100%;
+    padding-top: 20px;
+  }
+  .our-mentors-div {
+    width:90%;
+    margin:auto;
+  }
+  .our-mentors-ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .our-mentors-li {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+  }
+ 
+  .our-mentors-img {
+    display: flex;
+    align-items: start;
+    width: auto;
+    height: auto;
+  }
   /* Our Mentors Bitimi */
 
   /* Sign up */
@@ -786,6 +868,47 @@ form button:hover {
   /* Our Courses Bitimi */
 
   /* Our Mentors */
+  .our-mentors-sec {
+    width:100;
+    padding-top: 80px;
+  }
+  .our-mentors-div {
+   width:900px;
+   margin:auto;
+  }
+  .our-mentors-title {
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: -0.04em;
+  }
+  .our-mentors-name-title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .our-mentors-exp {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+  }
+  .our-mentors-ul {
+    display: flex;
+    min-width: 488px;
+    max-width: 1080px;
+    gap: 100px; /* Elemanlar arasındaki boşluk */
+    justify-content: space-between;
+    margin-left: 108px;
+    margin-right: 108px;
+  }
+
+  .our-mentors-li {
+    width: 194px;
+    margin-bottom: 93px;
+  }
+  .our-mentor-name-title,
+  .our-mentor-exp {
+    white-space: nowrap;
+  }
 
   /* Our Mentors Bitimi */
 
@@ -1082,6 +1205,29 @@ position: relative;
 
   /* Our Mentors */
 
+  .our-mentors-div {
+    width:1080px;
+    margin:auto;
+  }
+  .our-mentors-title {
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: -0.04em;
+  }
+  .our-mentor-name-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .our-mentor-exp {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+  }
+  .our-mentor-ul {
+    margin-left: 123px;
+  }
   /* Our Mentors Bitimi */
 
   /* Sign up */
@@ -1472,7 +1618,23 @@ bottom: 32px;
   /* Our Courses Bitimi */
 
   /* Our Mentors */
-
+ 
+  .our-mentors-div {
+    max-width: 1240px;
+    margin: auto;
+  }
+  .our-mentors-div {
+    width:1040px;
+    margin:auto;
+  }
+  .our-mentors-title {
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: -0.04em;
+    font-weight: 500;
+    margin-bottom: 50px;
+  }
+ 
   /* Our Mentors Bitimi */
 
   /* Sign up */
