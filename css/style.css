@@ -1217,7 +1217,7 @@ form button:hover {
     padding-top: 80px;
   }
   .our-mentors-div {
-   width:900px;
+   width:704px;
    margin:auto;
   }
   .our-mentors-title {
@@ -2068,13 +2068,10 @@ bottom: 32px;
   /* Our Mentors */
  
   .our-mentors-div {
-    max-width: 1240px;
+    width: 1240px;
     margin: auto;
   }
-  .our-mentors-div {
-    width:1040px;
-    margin:auto;
-  }
+  
   .our-mentors-title {
     font-size: 48px;
     line-height: 54px;
@@ -2090,7 +2087,7 @@ bottom: 32px;
     width:100%;
   }
   .sign-up-div{
-    max-width: 1440px;
+    width: 1240px;
   }
   .sign-up-contents{
     max-width: 1240px;
@@ -2202,9 +2199,10 @@ bottom: 32px;
     gap: 100px;
   }
   .footer-input-mail{
-    margin-left: 236px;
+    margin-left:196px;
   }
   .footer-div{
+    width:1240px;
     padding:0;
   }
 
