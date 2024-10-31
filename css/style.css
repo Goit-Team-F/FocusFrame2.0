@@ -74,13 +74,13 @@ body {
   max-width: 100%;
   margin-top: 80px;
   margin-bottom: 80px;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 .our-mentors-div {
-  min-width: 335px;
-  max-width: 704px;
+  width:335px;
   margin: auto;
+}
+.our-mentors-li-div {
+  margin:auto;
 }
 .our-mentors-title {
   font-weight: 500;
@@ -161,12 +161,11 @@ body {
   /* Our Mentors */
   .our-mentors-sec {
     width: 100%;
-    margin: 0;
     padding-top: 20px;
   }
   .our-mentors-div {
-    min-width: auto;
-    margin: 0;
+    width:90%;
+    margin:auto;
   }
   .our-mentors-ul {
     display: flex;
@@ -179,6 +178,7 @@ body {
     width: 100%;
     flex-direction: column;
   }
+ 
   .our-mentors-img {
     display: flex;
     align-items: start;
@@ -220,16 +220,12 @@ body {
 
   /* Our Mentors */
   .our-mentors-sec {
-    min-width: 768px;
-    max-width: 1279px;
-    margin: 0;
+    width:100;
     padding-top: 80px;
   }
   .our-mentors-div {
-    margin-left: 32px;
-    margin-right: 32px;
-    min-width: 704px;
-    max-width: 1279px;
+   width:900px;
+   margin:auto;
   }
   .our-mentors-title {
     font-size: 48px;
@@ -300,10 +296,8 @@ body {
   /* Our Mentors */
 
   .our-mentors-div {
-    min-width: 1080px;
-    max-width: 1240px;
-    margin-left: 100px;
-    margin-right: 100px;
+    width:1080px;
+    margin:auto;
   }
   .our-mentors-title {
     font-size: 48px;
@@ -357,12 +351,14 @@ body {
   /* Our Courses Bitimi */
 
   /* Our Mentors */
-  .our-mentors {
-    max-width: 100%;
-  }
+ 
   .our-mentors-div {
     max-width: 1240px;
     margin: auto;
+  }
+  .our-mentors-div {
+    width:1040px;
+    margin:auto;
   }
   .our-mentors-title {
     font-size: 48px;
@@ -371,9 +367,7 @@ body {
     font-weight: 500;
     margin-bottom: 50px;
   }
-  .our-mentors-ul {
-    margin-left: 103px;
-  }
+ 
   /* Our Mentors Bitimi */
 
   /* Sign up */
