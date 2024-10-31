@@ -394,7 +394,7 @@ body:has(.hamburger-checkbox:checked) .menu-wrap {
  .our-courses-cards-container {
   max-width:335px;
   margin:auto;
-  margin-top: 20px;
+  margin-top: 40px;
  }
  .our-courses-title {
   color:var(--white);
@@ -490,7 +490,6 @@ body:has(.hamburger-checkbox:checked) .menu-wrap {
   margin-bottom: 40px;
   color: var(--white);
   text-align: start;
-  margin-left: 20px;
 }
 .our-mentors-span {
   color: var(--brown);
@@ -566,8 +565,8 @@ letter-spacing: -0.02em;
 .sign-up-title {
   font-family: var(--dmsans);
   font-weight: 500;
-  font-size: 48px;
-  line-height: 54px;
+  font-size: 28px;
+  line-height: 32px;
   letter-spacing: -0.04em;
   color: var(--white);
   text-align: start;
