@@ -2091,8 +2091,14 @@ bottom: 32px;
   }
   .sign-up-contents{
     max-width: 1240px;
+    justify-content: left;
+  }
+  .sign-up-p{
+    display: flex;
+    
   }
   #sign-up-text1{
+    display: flex;
     flex: 455;
     }
     .sign-up-title {
