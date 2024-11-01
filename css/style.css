@@ -621,6 +621,7 @@ form textarea {
   height: 60px;
   border-radius: 12px;
   background-color: white;
+  color: var(--black);
 }
 form button:hover {
   background-color: var(--black);
