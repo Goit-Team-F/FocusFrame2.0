@@ -1083,7 +1083,8 @@ form button:hover {
 }
  .hero-paragraph {
   width:418px;
- }.hero-happy-studs-link-container{
+ }
+ .hero-happy-studs-link-container{
   flex-direction: row;
  }
  .hero-happy-reviews-container {
@@ -1538,6 +1539,7 @@ position: relative;
     justify-content: space-between;
     height:60px;
    }
+   
    /* kayan yazı bölümü */
    .advertisement{
   margin-top: 150px;
@@ -1587,6 +1589,26 @@ position: relative;
     width:418px;
     margin-bottom: 110px;
   }
+  .hero-happy-studs-link-container{
+  flex-direction: row;
+ }
+ .hero-happy-studs-div{
+  display: flex;
+ }
+ .hero-happy-studs{
+  height: 54px;
+ }
+ .hero-happy-studs-link{
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+  gap:8px;
+  height: 56px;  
+  font-size: 16px;
+ }
+ .hero-happy-studs-link-text{
+  display: inline-block;
+ }
   .hero-happy-reviews-container {
     width:388px;
     margin-bottom:40px;
