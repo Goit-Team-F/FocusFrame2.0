@@ -394,7 +394,7 @@ body:has(.hamburger-checkbox:checked) .menu-wrap {
 .our-courses-section {
   width:100%;
   color:var(--white);
-  padding: 90px 0;
+  margin-top: 80px;
 }
 .our-courses-div {
   max-width:375px;
@@ -529,7 +529,7 @@ body:has(.hamburger-checkbox:checked) .menu-wrap {
 }
 .our-mentors-ul {
   display: flex;
-  gap: 100px;
+  gap: 40px;
   margin: 0 auto;
   align-items: center;
   flex-wrap: wrap;
@@ -557,7 +557,6 @@ body:has(.hamburger-checkbox:checked) .menu-wrap {
 .sign-up-contents {
   display: flex;
   margin: 0px auto;
-  gap: 20px;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -770,6 +769,7 @@ form button:hover {
 .footer-div {
   width:375px;
   margin:auto;
+  margin-top:20px;
   display:flex;
   flex-direction: column;
   gap:40px;
