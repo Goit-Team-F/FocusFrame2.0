@@ -1083,9 +1083,27 @@ form button:hover {
 }
  .hero-paragraph {
   width:418px;
+ }.hero-happy-studs-link-container{
+  flex-direction: row;
  }
  .hero-happy-reviews-container {
   width:390px;
+ }
+ .hero-happy-studs-div{
+  display: flex;
+ }
+ .hero-happy-studs{
+  height: 54px;
+ }
+ .hero-happy-studs-link{
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+  gap:8px;
+  height: 56px;  
+ }
+ .hero-happy-studs-link-text{
+  display: inline-block;
  }
  .hero-photographer {
   margin:auto;
@@ -1230,8 +1248,8 @@ form button:hover {
 
   /* Our Mentors */
   .our-mentors-sec {
-    width:100;
-    padding-top: 80px;
+    width:100%;
+    margin-top: 100px;
   }
   .our-mentors-div {
    width:704px;
@@ -1245,6 +1263,8 @@ form button:hover {
   .our-mentors-name-title {
     font-size: 28px;
     line-height: 32px;
+    margin-top: 14px;
+    margin-top: 4px;
   }
   .our-mentors-exp {
     font-weight: 400;
