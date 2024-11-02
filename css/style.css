@@ -227,12 +227,19 @@ body:has(.hamburger-checkbox:checked) .menu-wrap {
   display:flex;
   flex-direction: column;
 }
+.hero-happy-studs-link{
+  display: flex;
+  width: 89px;
+}
 .hero-happy-studs-link-text {
+  display: flex;
+  width: 70px;
+  height: 36px;
   font-family: DM Sans;
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.06em;
   text-align: left;
   color: var(--white); 
 }
@@ -247,6 +254,15 @@ body:has(.hamburger-checkbox:checked) .menu-wrap {
   letter-spacing: -0.04em;
   text-align: left;
   color: var(--white); 
+}
+.hhs-arrow-div{
+  display: flex;
+  align-items: center;
+}
+.hhs-arrow{
+  display: flex;
+  width: 18px;
+  align-items: center;
 }
 .hero-photographer {
   margin-left:15px;
