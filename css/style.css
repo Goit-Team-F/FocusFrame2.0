@@ -2151,10 +2151,14 @@ bottom: 32px;
   .sign-up-contents{
     max-width: 1240px;
     justify-content: left;
+    flex-direction: column;
+  }
+  .sign-up-form-div {
+    margin-right:55px;
   }
   .sign-up-p{
     display: flex;
-    
+    margin-right: 155px;
   }
   #sign-up-text1{
     display: flex;
